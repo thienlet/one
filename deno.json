@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowJs": true
+  },
+  "importMap": "import_map.json",
+  "nodeModulesDir": "auto",
+  "lint": {
+    "files": {
+      "exclude": ["**/**"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "exclude": ["**/**"]
+    }
+  },
+  "tasks": {
+    "prepare": "./src/build/pre.sh"
+  }
+}
